@@ -8,6 +8,7 @@ def main(n):
     Returns:
         float: the value of the expression
     """
-    answer = 3* (n+1)**2
+    
+    answer = 3* pow(n+1, 2)
     return answer
 print(main(5.67))
