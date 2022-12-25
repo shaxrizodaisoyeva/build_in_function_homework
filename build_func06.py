@@ -8,7 +8,7 @@ def main(a):
     Returns:
         float: The result to 2 decimal places
     """
-    answer = a
+    answer = round(a, 2)
     return answer
-a = round(3.456, 2)
+a = 3.456
 print(main(a))
