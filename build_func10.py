@@ -9,4 +9,9 @@ def main(x, y):
     Returns:
         int: the value of the expression
     """
-    return
+    answer = 3*pow(y, 1/2)+pow(x, 2/3)
+    answer = round(answer, 2)
+    return answer
+x = 2
+y = 4
+print(main(x, y))
